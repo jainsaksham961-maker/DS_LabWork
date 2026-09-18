@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #define max 50
-
 int insertF(int dq[], int f, int r) {
     int x;
     if ((f == 0 && r == max - 1) || (f == r + 1)) {
